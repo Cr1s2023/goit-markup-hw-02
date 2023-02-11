@@ -1,0 +1,17 @@
+.navigation-list li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.webstudio {
+  color: #212121;
+}
+.webstudio::before {
+  content: "Studio";
+  color: #2196f3;
+}
