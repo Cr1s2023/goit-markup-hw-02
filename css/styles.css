@@ -19,6 +19,7 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #2196f3;
 }
 
@@ -36,16 +37,13 @@
   text-decoration: none;
 }
 
-.navigation-list li a {
+.navigation-list {
   width: 42px;
   height: 16px;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
-}
-
-.navigation-list > li {
   list-style: none;
 }
 
@@ -64,15 +62,11 @@
   list-style: none;
 }
 
-.contact-link:hover {
-  text-decoration: underline;
-  text-decoration-color: #2196f3;
-}
-
 .link:hover,
-.link:focus {
-  text-decoration: underline;
-  text-decoration-color: #2196f3;
+.link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: #2196f3;
 }
 
 .button-list {
@@ -80,6 +74,9 @@
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-color: #f5f4fa;
 }
 
 .btn:hover,
@@ -124,8 +121,13 @@
 .address-list {
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
+}
+
+.contact {
+  color: rgba(255, 255, 255, 0.6);
 }
