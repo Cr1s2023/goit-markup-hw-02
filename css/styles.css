@@ -47,10 +47,6 @@
   list-style: none;
 }
 
-.active-page[href*="port"],
-.active-page[href*="in"] {
-  color: #2196f3;
-}
 
 .contact-list {
   font-weight: 500;
